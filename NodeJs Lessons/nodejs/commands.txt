@@ -1,0 +1,49 @@
+How to install
+# install package
+npm install node-ts
+npm install tsd
+If you are using TypeScript, you also have to install the definitions for node and Q.
+
+tsd query node --action install/tsd install node
+tsd query q --action install
+
+for node.d.ts file
+tsd install node
+
+
+for jquery.d.ts file
+tsd intall jquery
+
+
+//Genreal form: for definition files
+tsd install filename
+
+For modules:
+
+for express command:
+npm install express
+
+for ejs command:
+npm install ejs
+
+for node-ts module
+npm install node-ts
+
+
+//bower is used for client side....
+for bower installing: npm install -g bower
+bower install file name 
+e.g
+bower install jquery
+
+npm install modulename --save-dev to add dev dependency
+e.g
+npm install gulp --save-dev
+
+
+npm install modulename --save to add  dependency
+e.g
+npm install express --save
+
+//npm install ===>for installing all modules
+http://expressjs.com/4x/api.html
